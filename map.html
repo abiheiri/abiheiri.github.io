@@ -34,26 +34,6 @@
 			      })();
 	      </script>
 	      <!--END-->
-<style>
-      #map_canvas {
-        width: 500px;
-        height: 400px;
-      }
-    </style>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script>
-      function initialize() {
-        var map_canvas = document.getElementById('map_canvas');
-        var map_options = {
-          center: new google.maps.LatLng(25.3991263,-44.6736603),
-          zoom: 2,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(map_canvas, map_options)
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-
 	</head>
 
 <body>
@@ -68,7 +48,7 @@
 	
 	<div class="wrapper wrapper-style3">
 
-	<center><div id="map_canvas"></div></center>
+	<iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/asaneth.j705d8gm/attribution,zoompan,geocoder.html?access_token=pk.eyJ1IjoiYXNhbmV0aCIsImEiOiJTMFRLRmE4In0.F2Ft0BnmIZLw8Ix6ybSe6A'></iframe>
 
 	<br><br>
 	<h3>Also follow my NON-STOP adventures on:</h3>
