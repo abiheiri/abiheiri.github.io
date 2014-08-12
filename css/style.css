@@ -17,14 +17,9 @@
 		box-sizing: border-box;
 	}
 
-	.image-logo {
-		width:100px;
-		height:100px;
-	}
-
 	body, input, textarea
 	{
-		font-family: 'Shadows Into Light', cursive;
+		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
 		color: #888;
 		font-weight: 300;
