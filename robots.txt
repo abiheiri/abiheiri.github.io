@@ -1,3 +1,4 @@
 User-agent: *
+Disallow: keybase.txt
 Disallow: music.html
 Disallow: resume.pdf
