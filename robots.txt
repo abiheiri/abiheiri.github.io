@@ -1,4 +1,6 @@
 User-agent: *
+Disallow: archive.html
 Disallow: keybase.txt
 Disallow: music.html
 Disallow: resume.pdf
+Disallow: stage.html
