@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Al Biheiri's Website" />
   <meta name="keywords" content="Al Biheiri, Biheiri" />
+  <title>Al Biheiri's Website</title>
   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/cover.css" />
@@ -34,25 +35,28 @@
       
       <nav class="nav nav-masthead justify-content-center">
         <a class="nav-link active" href="#">127.0.0.1</a>
-        <a class="nav-link" href="mailto:forgotthename@forgottheaddress.com?subject=Hi abiheiri.com!">Email</a>
+        <a class="nav-link" href="mailto:forgotthename@forgottheaddress.com?subject=abiheiri.com">Email</a>
       </nav>
     </div>
   </header>
 
-  <main role="main" class="inner cover">
+  <main class="inner cover">
     <h1 class="cover-heading">Al Biheiri's</h1>
-    <p class="lead">Really boring website!</p>
+    <p class="lead">Really awesome website!</p>
     <p class="lead">
       <a href="http://github.com/abiheiri" class="btn btn-lg btn-secondary">Code</a>
       <a href="music.html" class="btn btn-lg btn-secondary">Music</a>
-      <a href="http://www.scimitarguitars.com" class="btn btn-lg btn-secondary">Luthier</a>
+      <a href="http://www.scimitarguitars.com" class="btn btn-lg btn-secondary">Guitars</a>
       <a href="other.html" class="btn btn-lg btn-secondary">Other</a>
     </p>
   </main>
 
   <footer class="mastfoot mt-auto">
     <div class="inner">
-      <p>This is a footer. It serves no purpose other than to make my site look busy.</p>
+      <p id="date"></p>
+      <script>
+      document.getElementById("date").innerHTML = Date();
+      </script>
     </div>
   </footer>
 </div>
