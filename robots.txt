@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: keybase.txt
+Disallow: keybase.txt ihatex.html forsale.html
