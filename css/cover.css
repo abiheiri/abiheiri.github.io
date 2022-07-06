@@ -24,14 +24,10 @@ a:hover {
  * Base structure
  */
 
-html,
 body {
   height: 100%;
   background-color: #333;
   font-family: 'Itim', cursive;
-}
-
-body {
   display: -ms-flexbox;
   display: flex;
   color: #fff;
