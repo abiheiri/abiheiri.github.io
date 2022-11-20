@@ -27,6 +27,10 @@ body {
   justify-content: center;
 }
 
+.marquee {
+  font-size: 1.25rem;
+}
+
 .links{
   display: flex;
   flex-direction: column;
