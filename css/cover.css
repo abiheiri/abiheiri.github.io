@@ -15,14 +15,14 @@ body {
   display: flex; */
 }
 
-.header{
+.header {
   font-family: 'Merriweather', serif;
   display: flex;
   justify-content: center;
   margin: 3rem 0;
 }
 
-.footer{
+.footer {
   display: flex;
   justify-content: center;
 }
@@ -36,14 +36,14 @@ body {
   font-size: 1.25rem;
 }
 
-.links{
+.links {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.links img{
+.links img {
   width: 9rem;
   margin: 2rem 4rem;
 }
