@@ -22,6 +22,11 @@ body {
   margin: 3rem 0;
 }
 
+.footer{
+  display: flex;
+  justify-content: center;
+}
+
 .jesus {
   display: flex;
   justify-content: center;
