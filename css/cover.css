@@ -43,9 +43,12 @@
 
 .link-item p {
   margin-top: -1.5rem; /* Adjust the spacing to bring text closer to the image */
+  margin-bottom: 1rem; /* Add margin to create space between the paragraphs */
   text-align: center;
   color: #333;
   font-size: 1.25rem;
+  max-width: 10rem; /* Ensure the text doesn't exceed the width of the icon */
+  word-wrap: break-word; /* Allow long words to break and wrap to the next line */
 }
 
 @media (min-width: 760px) {
