@@ -1,33 +1,19 @@
 /*
- * Global
+ * Global Styles
  */
 
-
-/*
- * Body
- */
-
-body {
-  /* height: 100%; */
+ body {
   background-color: #75BACC;
-  /* font-family: 'Itim', cursive;
-  display: -ms-flexbox;
-  display: flex; */
+  font-family: "Coming Soon", cursive;
 }
 
 .header {
-  font-family: 'Merriweather', serif;
   display: flex;
   justify-content: center;
   margin: 3rem 0;
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-}
-
-.jesus {
+.footer, .jesus {
   display: flex;
   justify-content: center;
 }
@@ -43,17 +29,31 @@ body {
   align-items: center;
 }
 
+.link-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0; /* Added margin to separate link items */
+}
+
 .links img {
   width: 9rem;
   margin: 2rem 4rem;
 }
 
+.link-item p {
+  margin-top: -1.5rem; /* Adjust the spacing to bring text closer to the image */
+  text-align: center;
+  color: #333;
+  font-size: 1.25rem;
+}
+
 @media (min-width: 760px) {
-  .links{
+  .links {
     flex-direction: row;
   }
-  .links img{ 
+
+  .links img {
     width: 8rem;
   }
 }
-

@@ -10,56 +10,75 @@
     <title>Al Biheiri's Website</title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
-    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/cover.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   </head>
 
   <body>
 
-      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
     <div class="container">
 
-      <div class="header">
+      <header class="header">
         <h1>Al's Web Page</h1>
-      </div>
+      </header>
 
-      <div class="jesus">
-        <img src="images/jesus-dancing.gif" alt="dancing jesus">  
-      </div>
+      <main>
+        <div class="jesus">
+          <img src="images/jesus-dancing.gif" alt="Dancing Jesus" loading="lazy">  
+        </div>
 
         <marquee class="marquee">Pretty cool site, eh?</marquee>
 
-      <div class="links">
-          <a href="http://www.scimitarguitars.com/">
-            <img class="guitar" src="images/scimitaricon.svg" alt="Scimitar Guitars Company Icon">
-          </a>
-          <a href="http://github.com/abiheiri">
-            <img src="images/github.png" alt="Github">
-          </a>
-          <a href="https://www.youtube.com/channel/UCHeaHiY9j90cap8vHhVInTA">
-            <img src="images/youtube.png" alt="Youtube">
-          </a>
-          <a href="https://open.spotify.com/artist/087Tz1WThrNaaQM4ZEc9v0?si=OiLSc7zcSIyx8N5wBXh8fA">
-            <img src="images/spotify.png" alt="Spotify">
-          </a>
-          <a href="mailto:al@forgottheaddress.com">
-            <img src="images/mail.png" alt="email me">
-          </a>
-      </div>
+        <div class="links">
+          <div class="link-item">
+            <a href="http://www.scimitarguitars.com/">
+              <img class="guitar" src="images/scimitaricon.svg" alt="Scimitar Guitars Company Icon" loading="lazy">
+            </a>
+            <p>I make guitars!</p>
+          </div>
 
-      <div class="footer">
-        <a href='http://www.freevisitorcounters.com'>Get Visitor Counters</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=0ea80e14731ccc78eee3116ecd3b0ae8d7846e6c'></script>
+          <div class="link-item">
+            <a href="https://www.youtube.com/channel/UCHeaHiY9j90cap8vHhVInTA">
+              <img src="images/youtube.png" alt="YouTube Channel" loading="lazy">
+            </a>
+            <p>I make music; it's on YouTube</p>
+          </div>
+
+          <div class="link-item">
+            <a href="https://open.spotify.com/artist/087Tz1WThrNaaQM4ZEc9v0?si=OiLSc7zcSIyx8N5wBXh8fA">
+              <img src="images/spotify.png" alt="Spotify Artist Page" loading="lazy">
+            </a>
+            <p>My music is also on Spotify</p>
+          </div>
+
+          <div class="link-item">
+            <a href="http://github.com/abiheiri">
+              <img src="images/github.png" alt="GitHub Profile" loading="lazy">
+            </a>
+            <p>I write programs</p>
+          </div>
+
+          <div class="link-item">
+            <a href="mailto:al@forgottheaddress.com">
+              <img src="images/mail.png" alt="Email me" loading="lazy">
+            </a>
+            <p>Email me</p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <a href='http://www.freevisitorcounters.com'>Get Visitor Counters</a>
+        <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=0ea80e14731ccc78eee3116ecd3b0ae8d7846e6c'></script>
         <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1228968/t/5"></script>
-      </div>
+      </footer>
 
     </div>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybZ3Z3pZHBZ0LUOUUJYOOk7Pojzlc6dlc+LQ8xM68Q3MXMQB8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-pprn3073KE6tl6/IFPrTEn6yl9FbxT9EXf6Zp3yZFUmUp5sw5PqFT1hA3M7z9AaK" crossorigin="anonymous"></script>
+
   </body>
 
 </html>
