@@ -20,6 +20,28 @@
 
 .marquee {
   font-size: 1.25rem;
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.marquee a {
+  display: inline-block;
+  animation: scroll-left 10s linear infinite;
+  color: inherit;
+  text-decoration: underline;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .links {
