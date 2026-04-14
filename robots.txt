@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: keybase.txt ihatex.html images/*
+Disallow: keybase.txt images/*
