@@ -76,6 +76,7 @@
 @media (min-width: 760px) {
   .links {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .links img {
