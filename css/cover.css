@@ -103,6 +103,12 @@
     max-width: 100%;
     font-size: 1rem;
   }
+
+  /* Items 1-4 (Scimitar, YouTube, Spotify, GitHub) have edge-to-edge SVGs with no padding inside.
+     So a smaller negative margin keeps the text from sitting right on the image. */
+  .link-item:nth-child(-n+4) p {
+    margin-top: -0.5rem;
+  }
 }
 
 @media (min-width: 760px) {
